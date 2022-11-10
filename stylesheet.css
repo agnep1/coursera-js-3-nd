@@ -1,0 +1,22 @@
+#header-nav {
+    border: 2px black solid;
+    background: grey;
+}
+
+.navbar-brand h1 {
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .8;
+}
+
+.navbar-header button.navbar-toggle, .navbar-toggle .icon-bar {
+    border: 2px solid black;
+}
+
+#nav-list>li>a {
+    color: red;
+}
