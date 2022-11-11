@@ -1,3 +1,7 @@
+body {
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+}
 #header-nav {
     border: 2px black solid;
     background: grey;
@@ -5,18 +9,43 @@
 
 .navbar-brand h1 {
     font-family: "Comic Sans MS", cursive;
-    font-weight: bolder;
-    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 2em;
     color: black;
     margin-top: 0;
     margin-bottom: 0;
-    line-height: .8;
+    line-height: .7;
 }
 
 .navbar-header button.navbar-toggle, .navbar-toggle .icon-bar {
     border: 2px solid black;
 }
 
-#nav-list>li>a {
-    color: red;
+#nav-list a {
+    color: black;
+    background-color: antiquewhite;
+    text-align: center;
+    border: 1px black solid;
+    font-weight: bold;
+}
+.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.dish-name {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.description-box {
+    background-color:rgb(119, 123, 127);
+    margin-top: 20px;
+    
 }
